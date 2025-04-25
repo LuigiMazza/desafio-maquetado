@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="home">
+        <!--Menu responsive-->
+        <div class="nav">
+            <a href="/home" class="logo-link">
+                <img src="/logo.png" alt="logo" class="logo">
+            </a>
+            <div class="burger-menu" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-list" id="menu-list">
+                <li><a href="/quienSoy">Quien soy</a></li>
+                <li><a href="/about">Servicios</a></li>
+                <li><a href="/contact">Escríbeme</a></li>
+            </ul>
+        </div>
+    <!--Menu responsive-->
+    <div class="hero">
+        <h1 class="titulo">Bievenidos <br>a mi site</h1>
+        <div class= "ContenedorPerfil"><img src="/guy.png" alt="perfil" class="perfil"></div>
+    </div>
+    </section>
+    <!-- aqui va el contenido de la pagina de quien soy --> 
+    <section id="quiensoy"> 
+        <div class="quiensoy">  
+            <div class="icon"> <img src="icon.png" alt="icon" class="icon"></div>
+            <div class="info">
+                <h2 class="titulo"> Soy Luigi </h2>
+                <p class="contenido">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus. </p>
+            </div>
+        </div>
+    </section>
+        <!-- aqui va el contenido de la pagina de servicios -->
+        <section id="about">
+            <h1 class="titulo">Mis servicios</h1>
+            <did class="servicios">
+                <div class="servicio">  
+                    <img src="/iconService.png" alt="inconService" class="iconService">
+                    <h2 class="titulo"> Diseño Gráfico</h2>
+                    <p class="contenidoS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.</p>
+                </div>
+                <div class="servicio">  
+                    <img src="/iconService.png" alt="inconService" class="iconService">
+                    <h2 class="titulo"> Traducciones</h2>
+                    <p class="contenidoS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.</p>
+                </div>
+                <div class="servicio">  
+                    <img src="/iconService.png" alt="inconService" class="iconService">
+                    <h2 class="titulo"> Diseño web </h2>
+                    <p class="contenidoS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.</p>
+                </div>
+            </did>
+        </section>
+        <!-- aqui va el contenido de la pagina de escribeme -->
+        <section id="contact">
+            <div class="tituloform">
+                <h1 class="titulo">Escríbeme</h1>
+            </div>
+            <div class="contacto">
+                <form action="" method="post" class="formulario">
+                    <div class="form-group">
+                        <label class="labelform" for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <label class="labelform" for="email">Email:</label>
+                        <input type="text" id="email" name="email" required>
+                        <label class="labelform" for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea> 
+                        <button type="submit" class="btn">Enviar</button>
+                    </div>
+                </form>
+        </section>
+        <!-- aqui empieza el footer -->  
+        <section id="footer">
+            <div class="contenedor-log-footer">
+                <a href="/home" class="logo-link">
+                    <img src="/logo.png" alt="logo" class="logo">
+                </a>
+                <p1 class="titulo-footer">© 2025 Luigi M.</p1>
+            </div> 
+            <div class="contenedor-redes">
+                <ul class="redes">
+                    <li><a href="/quienSoy" class="redes-icon">
+                        <img src="/whatsapp.svg" alt="iconRedes" class="iconRedes">
+                        <p1 class="tituloIcon">Whatsapp</p1>
+                        </a>
+                    </li>
+                    <li><a href="/quienSoy" class="redes-icon">
+                        <img src="/youtube.svg" alt="iconRedes" class="iconRedes">
+                        <p1 class="tituloIcon">Youtube</p1>
+                        </a>
+                    </li>
+                    <li><a href="/quienSoy" class="redes-icon">
+                        <img src="/instagram.svg" alt="iconRedes" class="iconRedes">
+                        <p1 class="tituloIcon">Instagram</p1>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </section>
+            <script src="script.js"></script>
+</body>
+</html>
